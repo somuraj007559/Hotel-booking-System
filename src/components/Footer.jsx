@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -51,7 +52,7 @@ const Footer = () => {
                 className="text-gray-400 hover:text-white transition-colors text-2xl"
                 aria-label="Facebook"
               >
-                📘
+                <FaFacebook />
               </a>
               <a
                 href="https://twitter.com"
@@ -60,7 +61,7 @@ const Footer = () => {
                 className="text-gray-400 hover:text-white transition-colors text-2xl"
                 aria-label="Twitter"
               >
-                🐦
+                <FaTwitter />
               </a>
               <a
                 href="https://instagram.com"
@@ -69,7 +70,7 @@ const Footer = () => {
                 className="text-gray-400 hover:text-white transition-colors text-2xl"
                 aria-label="Instagram"
               >
-                📷
+                <FaInstagram />
               </a>
               <a
                 href="https://linkedin.com"
@@ -78,7 +79,7 @@ const Footer = () => {
                 className="text-gray-400 hover:text-white transition-colors text-2xl"
                 aria-label="LinkedIn"
               >
-                💼
+                <FaLinkedin />
               </a>
             </div>
           </div>

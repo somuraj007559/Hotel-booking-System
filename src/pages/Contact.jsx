@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -161,7 +162,7 @@ const Contact = () => {
                   className="text-3xl hover:opacity-75 transition-opacity"
                   aria-label="Facebook"
                 >
-                  📘
+                  <FaFacebook />
                 </a>
                 <a
                   href="https://twitter.com"
@@ -170,7 +171,7 @@ const Contact = () => {
                   className="text-3xl hover:opacity-75 transition-opacity"
                   aria-label="Twitter"
                 >
-                  🐦
+                  <FaTwitter />
                 </a>
                 <a
                   href="https://instagram.com"
@@ -179,7 +180,7 @@ const Contact = () => {
                   className="text-3xl hover:opacity-75 transition-opacity"
                   aria-label="Instagram"
                 >
-                  📷
+                  <FaInstagram />
                 </a>
                 <a
                   href="https://linkedin.com"
@@ -188,7 +189,7 @@ const Contact = () => {
                   className="text-3xl hover:opacity-75 transition-opacity"
                   aria-label="LinkedIn"
                 >
-                  💼
+                  <FaLinkedin />
                 </a>
               </div>
             </div>
